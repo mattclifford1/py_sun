@@ -1,7 +1,8 @@
 ## UNDER CONTRUSTION
 this repository isn't ready for use just yet, I will be writing documentation ASAP and cleaning up all code. If anyone thinks they will find this toolbox useful, send me a message any I'll get things done quicker :)
 
-#INFO
+# INFO
+
 This repository holds a python tool box for the SUNRGBD dataset.
 
 I made this toolbox box for personal use during an object dection project since I couldn't find any online, so I thought I'd share with anyone interested.
@@ -31,6 +32,7 @@ Batch training class (not pushed final version of code yet, send me a message if
 more to come!!!
 
 # Convert MatLab file to python serialisation
+
 expects SUNRGBD dataset to be in a datasets folder up one directory ie: '../datasets/SUN-RGBD/'
 
 $ python get_data_from_matlab.py
