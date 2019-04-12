@@ -1,7 +1,7 @@
 ## UNDER CONTRUSTION
 this repository isn't ready for use just yet, I will be writing documentation ASAP and cleaning up all code. If anyone thinks they will find this toolbox useful, send me a message any I'll get things done quicker :)
 
-
+#INFO
 This repository holds a python tool box for the SUNRGBD dataset.
 
 I made this toolbox box for personal use during an object dection project since I couldn't find any online, so I thought I'd share with anyone interested.
@@ -15,11 +15,17 @@ Easy extraction of ground truth labels
 
 Point cloud generation from depth images using camera tilt, height and focal lengths
 
-Visualisation of 2D and 3D bounding boxes
+Visualations of generated point clouds (using the lovely pptk plotting package)
+
+Visualisation of 2D and 3D bounding boxes (matplotlib unfortuntely)
 
 Class distribution visualasations 
 
+Random and Voxeled downsampling of pointclouds
+
 TensorFlow tf.record seralisation for 2D RGB images and bounding boxes
+
+Batch training class (not pushed final version of code yet, send me a message if you require any specific training needs ie what ground truth and input data)
 
 
 more to come!!!
