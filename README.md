@@ -1,4 +1,6 @@
-# py_sun
+## UNDER CONTRUSTION
+this repository isn't ready for use just yet, I will be writing documentation ASAP and cleaning up all code. If anyone thinks they will find this toolbox useful, send me a message any I'll get things done quicker :)
+
 
 This repository holds a python tool box for the SUNRGBD dataset.
 
@@ -16,6 +18,8 @@ Point cloud generation from depth images using camera tilt, height and focal len
 Visualisation of 2D and 3D bounding boxes
 
 Class distribution visualasations 
+
+TensorFlow tf.record seralisation for 2D RGB images and bounding boxes
 
 
 more to come!!!
