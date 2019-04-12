@@ -23,3 +23,27 @@ TensorFlow tf.record seralisation for 2D RGB images and bounding boxes
 
 
 more to come!!!
+
+# Convert MatLab file to python serialisation
+expects SUNRGBD dataset to be in a datasets folder up one directory ie: '../datasets/SUN-RGBD/'
+
+$ python get_data_from_matlab.py
+
+will serialise metadata to python pickle
+
+
+then use utils.py for features or get_rgbd_points.py for batch training
+
+# Convert python serialisation to TensorFlow serialisation
+after converting from MatLab (above)
+
+$ python meta_to_csv.py
+will convert SUNRGBD 2D object data to csv format
+
+$ python generate_tfrecord.py
+will serialise SUNRGBD 2D object meta data and RGB images to tf.records
+
+
+
+
+Currently only support Mac OS and Linux
