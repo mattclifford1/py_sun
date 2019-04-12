@@ -38,9 +38,11 @@ then use utils.py for features or get_rgbd_points.py for batch training
 after converting from MatLab (above)
 
 $ python meta_to_csv.py
+
 will convert SUNRGBD 2D object data to csv format
 
 $ python generate_tfrecord.py
+
 will serialise SUNRGBD 2D object meta data and RGB images to tf.records
 
 
